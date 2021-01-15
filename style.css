@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+}
+
+.header{
+  text-align: center;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  cursor:pointer;
+}
+.sub_header{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+}
+.mains{
+  width:100%;
+}
+.container{
+  margin:0 auto;
+  padding:20px;
+  width:50vw;
+  background:lightblue;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  outline:none;
+}
+
+[id='fname']{
+  width:90%;
+  margin:0 auto 20px;
+  outline:none;
+  padding:5px;
+}
+.sub_container{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  margin-bottom:20px;
+}
+
+#btn{
+padding:3px 8px;
+border:none;
+border-radius: 25px;
+outline:none;
+background:black;
+color:white;
+letter-spacing: 1px;
+font-family: 'Poppins', sans-serif;
+transition: all 0.3s ease;
+cursor:pointer;
+}
+
+#btn:hover{
+background-color: white;
+color:black;
+}
+table{
+  width:80%;
+  margin:20px auto;
+}
+td{
+  padding:10px;
+  background:#ddd;
+  text-align:center;
+  vertical-align: center;
+}
